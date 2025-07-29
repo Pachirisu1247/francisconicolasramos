@@ -11,9 +11,9 @@
 /* Define CSS variables for primary colours and typography. */
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
-  /* Dark background and light text for improved contrast */
-  --bs-body-bg: #121212;
-  --bs-body-color: #e0e0e0;
+  /* Dark background with a subtle purple hue and light text for improved contrast */
+  --bs-body-bg: #1b1325;
+  --bs-body-color: #e5e5e5;
   /* Purple accent colour */
   --bs-primary: #8e44ad;
   --bs-link-color: #bb86fc;
@@ -47,9 +47,17 @@ a:hover {
 
 /* Page footer styling */
 .page-footer {
-  background-color: #0d0d0d;
-  color: #7f7f7f;
+  background-color: #18142b;
+  color: #8a8a8a;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.9rem;
+}
+
+/* Hide the appearance (dark/light mode) toggle */
+.quarto-appearance-toggle,
+.navbar .quarto-color-scheme-toggle,
+button[title="Appearance"],
+button[data-bs-toggle="appearance"] {
+  display: none !important;
 }
