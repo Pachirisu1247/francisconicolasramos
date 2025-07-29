@@ -1,0 +1,9 @@
+---
+title: "Contact"
+---
+
+# Contact Me
+
+You can reach me via email at <a href="mailto:francinr@usc.edu">francinr@usc.edu</a>.
+
+For professional inquiries regarding my work at the USC Depression Treatment Lab or collaborations on science communication projects, please use the above email address. To help reduce spam, my email address is provided as a clickable link rather than plain text.
