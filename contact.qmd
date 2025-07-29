@@ -1,8 +1,8 @@
 ---
-title: "Contact"
+title: "Contact Me"
 ---
 
-# Contact Me
+<!-- Page title provided above; no duplicate heading needed -->
 
 You can reach me via email at <a href="mailto:francinr@usc.edu">francinr@usc.edu</a>.
 
