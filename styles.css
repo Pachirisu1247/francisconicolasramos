@@ -1,0 +1,55 @@
+/*
+ * Custom styles for Francisco Nicolas Ramos' Quarto site.
+ *
+ * This stylesheet overrides some Bootstrap variables to achieve a dark theme
+ * with a purple accent and improves legibility with a modern sans‑serif font.
+ */
+
+/* Import a legible, professional font from Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Define CSS variables for primary colours and typography. */
+:root {
+  --bs-body-font-family: 'Inter', sans-serif;
+  /* Dark background and light text for improved contrast */
+  --bs-body-bg: #121212;
+  --bs-body-color: #e0e0e0;
+  /* Purple accent colour */
+  --bs-primary: #8e44ad;
+  --bs-link-color: #bb86fc;
+  --bs-link-hover-color: #d2a8ff;
+}
+
+/* Ensure headings are clearly legible on dark backgrounds. */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* Style links with purple hue for consistency. */
+a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: underline;
+}
+
+/* Improve navbar readability and accent colour on hover/active. */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--bs-primary) !important;
+}
+
+/* Page footer styling */
+.page-footer {
+  background-color: #0d0d0d;
+  color: #7f7f7f;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+}
