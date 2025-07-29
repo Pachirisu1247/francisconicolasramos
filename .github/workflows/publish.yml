@@ -5,7 +5,6 @@ on:
     branches: [main]
 
 permissions:
-  # Grant the minimal permissions required by the Pages deployment process
   contents: read
   pages: write
   id-token: write
@@ -16,23 +15,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      # Set up Quarto CLI
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 'latest'
-      # Render the site; Quarto will output the static HTML to the `_site` folder
       - name: Render website
         run: quarto render
-      # Upload the rendered site as an artifact for deployment
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: _site
-      # Deploy to GitHub Pages branch
       - name: Deploy to GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
         with:
           branch: gh-pages
           token: ${{ secrets.GITHUB_TOKEN }}
