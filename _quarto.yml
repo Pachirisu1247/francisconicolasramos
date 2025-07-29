@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Francisco Nicolas Ramos"
+  title: "Francisco Nicolás Ramos"
   description: "Lab Manager & Clinical Psychology Researcher – personal site and science communication blog."
   # URL of the site. This can be updated once the rbind.io domain is configured.
   site-url: "https://francisconicolasramos.github.io/"
@@ -16,17 +16,15 @@ website:
         file: tutorials.qmd
       - text: "Contact"
         file: contact.qmd
-    # Right side of the navbar can link to GitHub or other profiles. Empty for now.
     right: []
   page-footer:
-    left: "© 2025 Francisco Nicolas Ramos"
+    left: "© 2025 Francisco Nicolás Ramos"
     right: "Built with Quarto"
   search: true
 
 format:
   html:
     theme:
-      # Use a built‑in dark theme. Additional customizations are provided via styles.css.
       dark: darkly
     css: styles.css
     toc: false
