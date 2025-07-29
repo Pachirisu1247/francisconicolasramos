@@ -12,7 +12,7 @@
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
   /* Slightly lighter dark background and light text for improved contrast */
-  --bs-body-bg: #1d1432;
+  --bs-body-bg: #231c3f;
   --bs-body-color: #e5e5e5;
   /* Lighter purple accent colour */
   --bs-primary: #9b59b6;
@@ -47,7 +47,7 @@ a:hover {
 
 /* Give the navbar a complementary dark blue background */
 .navbar-dark {
-  background-color: #16203a !important;
+  background-color: #1a2746 !important;
 }
 
 /* Enlarge the hamburger menu icon slightly for better visibility */
@@ -56,9 +56,8 @@ a:hover {
   height: 1.6em;
 }
 
-/* Hide Quarto's dark/light mode toggle */
-.quarto-appearance-toggle,
-.quarto-appearance-toggle-container {
+/* Hide appearance/dark-light toggle buttons inside the navbar (except hamburger) */
+.navbar-dark button:not(.navbar-toggler) {
   display: none !important;
 }
 
