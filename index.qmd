@@ -1,8 +1,8 @@
 ---
-title: "Home"
+title: "About Me"
 ---
 
-# About Me
+
 
 Hello there! I'm **Francisco (Frankie) Nicolas Ramos** — clinical psychology researcher and lab manager of the **Depression Treatment Laboratory** at the University of Southern California. I currently oversee the CBI clinical trial, an NIMH‑funded randomized clinical trial testing metaverse‑based, peer‑supported mental health interventions, which you can read more about [here](https://clinicaltrials.gov/study/NCT06418997). My work spans data management and analysis, recruitment and mentorship of research assistants, and collaboration with partners at Vanderbilt University, Innerworld Inc., and other institutions.
 
