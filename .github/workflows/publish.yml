@@ -15,19 +15,23 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 'latest'
+
       - name: Render website
         run: quarto render
+
       - name: Upload artifact
-          uses: actions/upload-pages-artifact@v3
-          with:
-            path: _site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
       - name: Deploy to GitHub Pages
-          id: deploy
-          uses: actions/deploy-pages@v4
-          with:
-            branch: gh-pages
-              token: ${{ secrets.GITHUB_TOKEN }}
+        id: deploy
+        uses: actions/deploy-pages@v4
+        with:
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
