@@ -1,8 +1,9 @@
 /*
  * Custom styles for Francisco Nicolás Ramos' Quarto site.
  *
- * This stylesheet overrides Bootstrap variables to achieve a dark theme
- * with a purple-blue accent and improves legibility with a modern sans‑serif font.
+ * This stylesheet overrides Bootstrap variables to produce a refined dark theme
+ * with purple and blue accents, improve legibility with a modern sans‑serif font,
+ * and adjust navbar and hamburger menu styling.
  */
 
 /* Import a legible, professional font from Google Fonts. */
@@ -11,13 +12,13 @@
 /* Define CSS variables for primary colours and typography. */
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
-  /* Slightly lighter dark background and light text for improved contrast */
-  --bs-body-bg: #231c3f;
+  /* Dark background with a slightly lighter purple hue */
+  --bs-body-bg: #241d43;
   --bs-body-color: #e5e5e5;
-  /* Lighter purple accent colour */
-  --bs-primary: #9b59b6;
-  --bs-link-color: #c299e5;
-  --bs-link-hover-color: #d6b8f0;
+  /* Purple accent colour */
+  --bs-primary: #8e44ad;
+  --bs-link-color: #bb86fc;
+  --bs-link-hover-color: #d2a8ff;
 }
 
 /* Ensure headings are clearly legible on dark backgrounds. */
@@ -38,34 +39,37 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Improve navbar readability and accent colour on hover/active. */
+/* Navbar styling: use a dark blue/green shade instead of black */
+.navbar-dark {
+  background-color: #1b3459 !important;
+}
+
+/* Improve navbar link readability and apply purple accent on hover/active */
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: var(--bs-primary) !important;
 }
 
-/* Give the navbar a complementary dark blue background */
-.navbar-dark {
-  background-color: #1a2746 !important;
-}
-
-/* Enlarge the hamburger menu icon slightly for better visibility */
-.navbar-dark .navbar-toggler-icon {
-  width: 1.6em;
-  height: 1.6em;
-}
-
-/* Hide appearance/dark-light toggle buttons inside the navbar (except hamburger) */
-.navbar-dark button:not(.navbar-toggler) {
-  display: none !important;
+/* Enlarge hamburger menu icon for better visibility */
+.navbar-toggler-icon {
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 /* Page footer styling */
 .page-footer {
-  background-color: #18142b;
-  color: #7f7f7f;
+  background-color: #201b3a;
+  color: #8a8a8a;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.9rem;
+}
+
+/* Hide the appearance (dark/light mode) toggle */
+.quarto-appearance-toggle,
+.navbar .quarto-color-scheme-toggle,
+button[title="Appearance"],
+button[data-bs-toggle="appearance"] {
+  display: none !important;
 }

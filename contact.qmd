@@ -2,9 +2,21 @@
 title: "Contact Me"
 ---
 
-<!-- Page title provided above; content below uses HTML entity encoding to obfuscate email address from bots. -->
+<!-- Page title provided above; content below uses JavaScript to construct the email address from parts for obfuscation. -->
 
 <ul>
-  <li>Email address: <a href="mailto:&#102;&#114;&#97;&#110;&#99;&#105;&#110;&#114;&#64;&#117;&#115;&#99;&#46;&#101;&#100;&#117;">&#102;&#114;&#97;&#110;&#99;&#105;&#110;&#114;&#64;&#117;&#115;&#99;&#46;&#101;&#100;&#117;</a></li>
-  <li>I check emails strictly during business hours and may take 24–48 hours to respond to a query. If I have not responded within 48 hours, please feel free to follow up.</li>
+  <li>Email address: <a id="email-link"></a></li>
+  <li>I check emails strictly during business hours and may take 24–48 hours to respond to a query. If I have not responded to your query within 48 hours, please feel free to follow up.</li>
 </ul>
+
+<script>
+(function() {
+  // Split email into parts to deter scraping
+  var user = 'francinr';
+  var domain = 'usc.edu';
+  var email = user + '@' + domain;
+  var link = document.getElementById('email-link');
+  link.textContent = email;
+  link.href = 'mailto:' + email;
+})();
+</script>
