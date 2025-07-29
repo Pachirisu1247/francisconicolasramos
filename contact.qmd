@@ -2,8 +2,20 @@
 title: "Contact Me"
 ---
 
-<!-- Page title provided above; no duplicate heading needed -->
+<!-- Page title provided above; content below includes obfuscated email -->
 
-You can reach me via email at <a href="mailto:francinr@usc.edu">francinr@usc.edu</a>.
+<ul>
+  <li>Email address: <a id="email-link"></a></li>
+  <li>I check emails strictly during business hours and may take 24–48 hours to respond to a query. If I have not responded within 48 hours, please feel free to follow up.</li>
+</ul>
 
-For professional inquiries regarding my work at the USC Depression Treatment Lab or collaborations on science communication projects, please use the above email address. To help reduce spam, my email address is provided as a clickable link rather than plain text.
+<script>
+  (function() {
+    var user = 'francinr';
+    var domain = 'usc.edu';
+    var link = document.getElementById('email-link');
+    var address = user + '@' + domain;
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+  })();
+</script>

@@ -2,20 +2,20 @@
 title: "About Me"
 ---
 
+<img src="Francisco%20DTX.png" alt="Francisco Nicolás Ramos" style="float:right; width:160px; margin-left:1em; border-radius:8px;">
 
+Hello there! I'm **Francisco (Frankie) Nicolás Ramos** — clinical psychology researcher and lab manager of the **Depression Treatment Laboratory** at the University of Southern California. I currently oversee the CBI clinical trial, an **National Institutes of Mental Health–funded** randomized clinical trial testing metaverse‑based, peer‑supported mental health interventions, which you can read more about [here](https://clinicaltrials.gov/study/NCT06418997). My work spans data management and analysis, recruitment and mentorship of research assistants, and collaboration with partners at Vanderbilt University, Innerworld Inc., and other institutions.
 
-Hello there! I'm **Francisco (Frankie) Nicolas Ramos** — clinical psychology researcher and lab manager of the **Depression Treatment Laboratory** at the University of Southern California. I currently oversee the CBI clinical trial, an NIMH‑funded randomized clinical trial testing metaverse‑based, peer‑supported mental health interventions, which you can read more about [here](https://clinicaltrials.gov/study/NCT06418997). My work spans data management and analysis, recruitment and mentorship of research assistants, and collaboration with partners at Vanderbilt University, Innerworld Inc., and other institutions.
-
-Outside the lab, I contribute to the **Measurement & Multilevel Modeling Lab** at USC on science communication projects for psychologists and systematic reviews of measurement instruments. I also collaborate internationally with research groups in Spain on studies addressing mental health disorders and have presented my work at numerous conferences. I earned my B.A. in **Psychology and Economics** (Magna Cum Laude) from USC and am passionate about advancing mental health research and communicating science effectively. This site is a space to share more about my work, host my CV, and publish tutorials and posts on science communication.
+Outside the lab, I contribute to the **Measurement & Multilevel Modeling Lab** at USC on science communication projects for psychologists and systematic reviews of measurement instruments. I also collaborate internationally with research groups in Spain on studies addressing mental health disorders and have presented my work at numerous conferences. I earned my B.A. in **Psychology and Economics** (Magna Cum Laude) from USC and am passionate about advancing mental health research and communicating science effectively. This site is a space to share more about my work, host my CV, and publish tutorials and posts on science communication.
 
 ## Curriculum Vitae
 
-My full curriculum vitae as of July 29th 2025 is embedded below. Use the embedded viewer to read directly or the link to download a copy.
+My full curriculum vitae as of **July 29th 2025** is embedded below. Use the embedded viewer to read directly or the link to download a copy.
 
 <div style="margin-top:1em; margin-bottom:1em;">
 <iframe src="cv.pdf" style="width:100%; height:600px; border:none;">Your browser does not support iframes.</iframe>
 </div>
 
-If the embedded PDF does not display, use the following link to download it:
+If the embedded PDF does not display, please use the following link to download it:
 
-- [Download CV](cv.pdf)
+- [Download CV](cv.pdf)

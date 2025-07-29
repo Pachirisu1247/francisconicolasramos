@@ -1,8 +1,8 @@
 /*
- * Custom styles for Francisco Nicolas Ramos' Quarto site.
+ * Custom styles for Francisco Nicolás Ramos' Quarto site.
  *
- * This stylesheet overrides some Bootstrap variables to achieve a dark theme
- * with a purple accent and improves legibility with a modern sans‑serif font.
+ * This stylesheet overrides Bootstrap variables to achieve a dark theme
+ * with a purple-blue accent and improves legibility with a modern sans‑serif font.
  */
 
 /* Import a legible, professional font from Google Fonts. */
@@ -11,13 +11,13 @@
 /* Define CSS variables for primary colours and typography. */
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
-  /* Dark background with a subtle purple hue and light text for improved contrast */
-  --bs-body-bg: #1b1325;
+  /* Slightly lighter dark background and light text for improved contrast */
+  --bs-body-bg: #1d1432;
   --bs-body-color: #e5e5e5;
-  /* Purple accent colour */
-  --bs-primary: #8e44ad;
-  --bs-link-color: #bb86fc;
-  --bs-link-hover-color: #d2a8ff;
+  /* Lighter purple accent colour */
+  --bs-primary: #9b59b6;
+  --bs-link-color: #c299e5;
+  --bs-link-hover-color: #d6b8f0;
 }
 
 /* Ensure headings are clearly legible on dark backgrounds. */
@@ -45,19 +45,28 @@ a:hover {
   color: var(--bs-primary) !important;
 }
 
+/* Give the navbar a complementary dark blue background */
+.navbar-dark {
+  background-color: #16203a !important;
+}
+
+/* Enlarge the hamburger menu icon slightly for better visibility */
+.navbar-dark .navbar-toggler-icon {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+/* Hide Quarto's dark/light mode toggle */
+.quarto-appearance-toggle,
+.quarto-appearance-toggle-container {
+  display: none !important;
+}
+
 /* Page footer styling */
 .page-footer {
   background-color: #18142b;
-  color: #8a8a8a;
+  color: #7f7f7f;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.9rem;
-}
-
-/* Hide the appearance (dark/light mode) toggle */
-.quarto-appearance-toggle,
-.navbar .quarto-color-scheme-toggle,
-button[title="Appearance"],
-button[data-bs-toggle="appearance"] {
-  display: none !important;
 }
