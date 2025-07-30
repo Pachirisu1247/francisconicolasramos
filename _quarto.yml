@@ -6,7 +6,7 @@ website:
   title: "Francisco N. Ramos"
   description: "Lab Manager & Clinical Psychology Researcher – personal site and science communication blog."
   # URL of the site. This can be updated once the rbind.io domain is configured.
-  site-url: "https://francisconicolasramos.github.io/"
+  site-url: "https://francisconramos.github.io/"
   favicon: favicon.ico
   navbar:
     # Use a dark navbar to complement the dark theme.
@@ -26,7 +26,7 @@ website:
   # Define the page footer. In addition to specifying left and right content,
   # set an explicit background and foreground colour to match the header bar.
   page-footer:
-    left: "© 2025 Francisco Nicolás Ramos"
+    left: "© 2025 Francisco N. Ramos"
     right: "Built with Quarto"
     # Match the footer background to the dark navbar colour (grey with a hint of green).
     background: "#212529"
