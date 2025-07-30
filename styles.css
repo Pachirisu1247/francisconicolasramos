@@ -51,9 +51,10 @@ a:hover {
 
 /* Footer: match the navbar colour and improve legibility */
 /* Footer: match the navbar colour and improve legibility */
+/* Footer: match the navbar colour; override default styles from Bootstrap */
 .page-footer {
-  background-color: #1f594c;
-  color: #b0b0b0;
+  background-color: #1f594c !important;
+  color: #b0b0b0 !important;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.9rem;
