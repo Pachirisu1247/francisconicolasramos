@@ -2,10 +2,13 @@ project:
   type: website
 
 website:
+  # Display name in the navbar. Use middle initial only, per the user's request.
   title: "Francisco N. Ramos"
   description: "Lab Manager & Clinical Psychology Researcher – personal site and science communication blog."
+  # URL of the site. This can be updated once the rbind.io domain is configured.
   site-url: "https://francisconicolasramos.github.io/"
   navbar:
+    # Use a dark navbar to complement the dark theme.
     background: dark
     left:
       - text: "Home"
@@ -14,15 +17,25 @@ website:
         file: tutorials.qmd
       - text: "Contact"
         file: contact.qmd
+    # Right side of the navbar can link to GitHub or other profiles. Empty for now.
     right: []
+  # Define the page footer. In addition to specifying left and right content,
+  # set an explicit background and foreground colour to match the header bar.
   page-footer:
     left: "© 2025 Francisco Nicolás Ramos"
     right: "Built with Quarto"
+    # Match the footer background to the dark navbar colour (grey with a hint of green).
+    background: "#212529"
+    # Use a muted grey for footer text to complement the dark background.
+    foreground: "#b0b0b0"
+    # Remove the default top border on the footer for a cleaner look.
+    border: false
   search: true
 
 format:
   html:
     theme:
+      # Use a built‑in dark theme. Additional customizations are provided via styles.css.
       dark: darkly
     css: styles.css
     toc: false
