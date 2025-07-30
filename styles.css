@@ -8,8 +8,8 @@
 
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
-  /* Slightly lighter purple background (a touch lighter than before) */
-  --bs-body-bg: #2b2354;
+  /* Light purple background (slightly lighter than before) */
+  --bs-body-bg: #261e49;
   --bs-body-color: #e6e6e6;
   --bs-primary: #8e44ad;
   --bs-link-color: #bb86fc;
@@ -32,10 +32,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar: use a slightly lighter green shade to avoid a grey appearance */
+/* Navbar: use a slightly greener shade to avoid a grey appearance */
 .navbar-dark {
-  /* Adjusted to a greener, slightly brighter hue to avoid grey appearance */
-  background-color: #1e644f !important;
+  /* Adjusted to a greener and slightly brighter hue */
+  background-color: #1f594c !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
@@ -50,8 +50,9 @@ a:hover {
 }
 
 /* Footer: match the navbar colour and improve legibility */
+/* Footer: match the navbar colour and improve legibility */
 .page-footer {
-  background-color: #1e644f;
+  background-color: #1f594c;
   color: #b0b0b0;
   padding-top: 1rem;
   padding-bottom: 1rem;
