@@ -4,4 +4,4 @@ title: "Tutorials"
 
 This page will host my science communication tutorials and related articles in the near future. New articles will appear and be hosted here. Please check back later for updates.
 
-“Introducing Machine Learning Models for Psychologists—[Random Forest](https://mmmlab.rbind.io/posts/2025-03-25-random-forest/)”, my first educational article and R tutorial, can be accessed on Dr. Mark Lai’s Measurement and Multilevel Modeling website. I am currently working on an addendum that reviews feature selection methods for random forest modeling in depth. The addendum will soon be posted to this page.
+“[Introducing Machine Learning Models for Psychologists—Random Forest](https://mmmlab.rbind.io/posts/2025-03-25-random-forest/)”, my first educational article and R tutorial, can be accessed on Dr. Mark Lai’s Measurement and Multilevel Modeling website. I am currently working on an addendum that reviews feature selection methods for random forest modeling in depth. The addendum will soon be posted to this page.
