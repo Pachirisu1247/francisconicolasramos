@@ -1,12 +1,13 @@
 project:
   type: website
-
+lang: en
 website:
   # Display name in the navbar. Use middle initial only, per the user's request.
   title: "Francisco N. Ramos"
   description: "Lab Manager & Clinical Psychology Researcher – personal site and science communication blog."
   # URL of the site. This can be updated once the rbind.io domain is configured.
   site-url: "https://francisconicolasramos.github.io/"
+  favicon: favicon.ico
   navbar:
     # Use a dark navbar to complement the dark theme.
     background: dark
@@ -18,7 +19,10 @@ website:
       - text: "Contact"
         file: contact.qmd
     # Right side of the navbar can link to GitHub or other profiles. Empty for now.
-    right: []
+    right:
+      - icon: github
+        href: https://github.com/Pachirisu1247
+        aria-label: GitHub
   # Define the page footer. In addition to specifying left and right content,
   # set an explicit background and foreground colour to match the header bar.
   page-footer:
