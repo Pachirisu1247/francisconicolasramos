@@ -1,27 +1,34 @@
 /*
  * Custom styles for Francisco Nicolás Ramos' Quarto site.
  *
- * This stylesheet refines the dark theme with purple and green accents and improves readability.
+ * This stylesheet refines the dark theme with purple and green accents and
+ * improves readability. It also ensures that the global footer (nav footer)
+ * matches the header bar colour.
  */
 
+/* Import a legible, professional font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+/* Set CSS variables for base colours and typography */
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
   /* Light purple background (slightly lighter than before) */
   --bs-body-bg: #261e49;
   --bs-body-color: #e6e6e6;
+  /* Primary accent colour (purple) */
   --bs-primary: #8e44ad;
   --bs-link-color: #bb86fc;
   --bs-link-hover-color: #d2a8ff;
 }
 
+/* Headings on dark backgrounds */
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   margin-top: 1.2em;
   margin-bottom: 0.6em;
 }
 
+/* Hyperlink styles */
 a {
   color: var(--bs-link-color);
   text-decoration: none;
@@ -32,7 +39,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar: use a slightly greener shade to avoid a grey appearance */
+/* Navbar styling: use a slightly greener hue to avoid a grey appearance */
 .navbar-dark {
   /* Adjusted to a greener and slightly brighter hue */
   background-color: #1f594c !important;
@@ -44,14 +51,13 @@ a:hover {
   color: var(--bs-primary) !important;
 }
 
+/* Enlarge the hamburger (navbar toggler) icon for better visibility */
 .navbar-toggler-icon {
   width: 1.8rem;
   height: 1.8rem;
 }
 
-/* Footer: match the navbar colour and improve legibility */
-/* Footer: match the navbar colour and improve legibility */
-/* Footer: match the navbar colour; override default styles from Bootstrap */
+/* Footer styling: page-level footer (for Quarto pages using page-footer) */
 .page-footer {
   background-color: #1f594c !important;
   color: #b0b0b0 !important;
@@ -60,6 +66,7 @@ a:hover {
   font-size: 0.9rem;
 }
 
+/* Hide dark/light mode toggle */
 .quarto-appearance-toggle,
 .navbar .quarto-color-scheme-toggle,
 button[title="Appearance"],
@@ -67,22 +74,22 @@ button[data-bs-toggle="appearance"] {
   display: none !important;
 }
 
-/* Global footer: match the navbar colour and set text colour. The Quarto-generated
-   footer uses <footer class="footer">, which is separate from the page footer
-   element styled above. Style it explicitly so the background matches the
-   header and the text uses a muted colour. */
-footer.footer {
+/*
+ * Global site footer styling: match the header bar colour and use muted text.
+ * Quarto generates a `<footer class="footer">` containing a `.nav-footer`.
+ * We style both the footer and its nested elements to ensure consistent
+ * background and text colours.
+ */
+footer.footer,
+footer.footer .nav-footer,
+footer.footer .nav-footer-left,
+footer.footer .nav-footer-right {
   background-color: #1f594c !important;
   color: #b0b0b0 !important;
 }
 
-footer.footer p {
+footer.footer .nav-footer p,
+footer.footer .nav-footer a {
+  color: #b0b0b0 !important;
   margin-bottom: 0;
-  color: #b0b0b0 !important;
-}
-
-footer.footer .nav-footer {
-  /* Ensure the footer bar itself has the same background colour as the header */
-  background-color: #1f594c !important;
-  padding: 0.5rem 1rem;
 }
