@@ -94,18 +94,19 @@ footer.footer .nav-footer a {
   margin-bottom: 0;
 }
 
-/* Profile image styling */
-.profile-img {
-  width: 150px;
-  float: left;
-  margin-right: 20px;
+/* Right-floated profile image styling */
+.profile-img-right {
+  width: 140px;
+  float: right;
+  margin-left: 20px;
   margin-bottom: 10px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 /* Responsive layout for profile image on narrow screens */
 @media screen and (max-width: 600px) {
-  .profile-img {
+  .profile-img-right {
     display: block;
     float: none;
     margin: 0 auto 20px auto;
