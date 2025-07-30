@@ -2,12 +2,10 @@ project:
   type: website
 
 website:
-  title: "Francisco Nicolás Ramos"
+  title: "Francisco N. Ramos"
   description: "Lab Manager & Clinical Psychology Researcher – personal site and science communication blog."
-  # URL of the site. This can be updated once the rbind.io domain is configured.
   site-url: "https://francisconicolasramos.github.io/"
   navbar:
-    # Use a dark navbar to complement the dark theme.
     background: dark
     left:
       - text: "Home"
