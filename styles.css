@@ -66,3 +66,21 @@ button[title="Appearance"],
 button[data-bs-toggle="appearance"] {
   display: none !important;
 }
+
+/* Global footer: match the navbar colour and set text colour. The Quarto-generated
+   footer uses <footer class="footer">, which is separate from the page footer
+   element styled above. Style it explicitly so the background matches the
+   header and the text uses a muted colour. */
+footer.footer {
+  background-color: #1f594c !important;
+  color: #b0b0b0 !important;
+}
+
+footer.footer p {
+  margin-bottom: 0;
+  color: #b0b0b0 !important;
+}
+
+footer.footer .nav-footer {
+  padding: 0.5rem 1rem;
+}
