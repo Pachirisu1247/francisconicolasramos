@@ -82,5 +82,7 @@ footer.footer p {
 }
 
 footer.footer .nav-footer {
+  /* Ensure the footer bar itself has the same background colour as the header */
+  background-color: #1f594c !important;
   padding: 0.5rem 1rem;
 }
