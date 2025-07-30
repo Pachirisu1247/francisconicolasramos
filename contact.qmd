@@ -2,13 +2,19 @@
 title: "Contact Me"
 ---
 
-<!-- This page assembles the email address at runtime to reduce scraping. -->
+<!-- Email address and response note. Use JavaScript to assemble the email to reduce scraping. -->
 
-<!-- Obfuscated email address using HTML entities to reduce scraping -->
-<p><strong>Email address:</strong>
-  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#102;&#114;&#97;&#110;&#99;&#105;&#110;&#114;&#64;&#117;&#115;&#99;&#46;&#101;&#100;&#117;">
-    &#102;&#114;&#97;&#110;&#99;&#105;&#110;&#114;&#64;&#117;&#115;&#99;&#46;&#101;&#100;&#117;
-  </a>
-</p>
+<p><strong>Email address:</strong> <a id="email-link"></a></p>
 
-<p style="font-size:0.9em; margin-top:0.5em;">I check emails strictly during business hours and may take 24–48 hours to respond to a query. If I have not responded to your query within 48 hours, please feel free to follow up.</p>
+<p class="contact-note">I check emails strictly during business hours and may take 24–48 hours to respond to a query. If I have not responded within 48 hours, please feel free to follow up.</p>
+
+<script>
+  // Build the email address via JavaScript to deter scraping
+  const user = 'francinr';
+  const domain = 'usc.edu';
+  const email = `${user}@${domain}`;
+  const link = document.getElementById('email-link');
+  link.textContent = email;
+  link.href = `mailto:${email}`;
+  link.style.color = 'var(--bs-link-color)';
+</script>
