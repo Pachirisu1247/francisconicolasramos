@@ -12,10 +12,8 @@
 /* Set CSS variables for base colours and typography */
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
-  /* Light purple background (slightly lighter than before) */
   --bs-body-bg: #261e49;
   --bs-body-color: #e6e6e6;
-  /* Primary accent colour (purple) */
   --bs-primary: #8e44ad;
   --bs-link-color: #bb86fc;
   --bs-link-hover-color: #d2a8ff;
@@ -39,24 +37,20 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar styling: retain the Bootstrap dark navigation colour. The default dark
-   theme uses a neutral grey background, which we keep to maintain the subtle
-   appearance requested by the user. We still override link hover colours for
-   consistency with our purple accent. */
+/* Navbar link hover styling */
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus,
 .navbar .navbar-nav .nav-link:hover {
   color: var(--bs-primary) !important;
 }
 
-/* Enlarge the hamburger (navbar toggler) icon for better visibility */
+/* Enlarge the hamburger (navbar toggler) icon */
 .navbar-toggler-icon {
   width: 1.8rem;
   height: 1.8rem;
 }
 
-/* Footer styling: page-level footer (for Quarto pages using page-footer)
-   Use the same dark grey as the header bar (Bootstrap dark navbar). */
+/* Footer styling for page-footer */
 .page-footer {
   background-color: #212529 !important;
   color: #b0b0b0 !important;
@@ -73,17 +67,11 @@ button[data-bs-toggle="appearance"] {
   display: none !important;
 }
 
-/*
- * Global site footer styling: match the header bar colour and use muted text.
- * Quarto generates a `<footer class="footer">` containing a `.nav-footer`.
- * We style both the footer and its nested elements to ensure consistent
- * background and text colours.
- */
+/* Global footer styling */
 footer.footer,
 footer.footer .nav-footer,
 footer.footer .nav-footer-left,
 footer.footer .nav-footer-right {
-  /* Match the global footer colour to the header bar's neutral dark grey */
   background-color: #212529 !important;
   color: #b0b0b0 !important;
 }
@@ -111,4 +99,16 @@ footer.footer .nav-footer a {
     float: none;
     margin: 0 auto 20px auto;
   }
+}
+
+/* Increase GitHub icon size in navbar */
+.navbar .bi-github {
+  font-size: 1.4rem !important;
+  color: #ffffff !important;
+}
+
+/* Increase search icon size in navbar */
+#quarto-search .bi-search {
+  font-size: 1.4rem !important;
+  color: #ffffff !important;
 }
