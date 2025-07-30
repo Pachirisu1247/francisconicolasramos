@@ -39,15 +39,13 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar styling: use a slightly greener hue to avoid a grey appearance */
-.navbar-dark {
-  /* Adjusted to a greener and slightly brighter hue */
-  background-color: #1f594c !important;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:focus,
-.navbar-dark .navbar-nav .nav-link:hover {
+/* Navbar styling: retain the Bootstrap dark navigation colour. The default dark
+   theme uses a neutral grey background, which we keep to maintain the subtle
+   appearance requested by the user. We still override link hover colours for
+   consistency with our purple accent. */
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
   color: var(--bs-primary) !important;
 }
 
@@ -57,9 +55,10 @@ a:hover {
   height: 1.8rem;
 }
 
-/* Footer styling: page-level footer (for Quarto pages using page-footer) */
+/* Footer styling: page-level footer (for Quarto pages using page-footer)
+   Use the same dark grey as the header bar (Bootstrap dark navbar). */
 .page-footer {
-  background-color: #1f594c !important;
+  background-color: #212529 !important;
   color: #b0b0b0 !important;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -84,7 +83,8 @@ footer.footer,
 footer.footer .nav-footer,
 footer.footer .nav-footer-left,
 footer.footer .nav-footer-right {
-  background-color: #1f594c !important;
+  /* Match the global footer colour to the header bar's neutral dark grey */
+  background-color: #212529 !important;
   color: #b0b0b0 !important;
 }
 
