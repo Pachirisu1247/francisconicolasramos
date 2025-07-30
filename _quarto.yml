@@ -4,9 +4,8 @@ lang: en
 website:
   # Display name in the navbar. Use middle initial only, per the user's request.
   title: "Francisco N. Ramos"
+  site-url: "https://francisconramos.com"
   description: "Lab Manager & Clinical Psychology Researcher – personal site and science communication blog."
-  # URL of the site. This can be updated once the rbind.io domain is configured.
-  site-url: "https://francisconramos.github.io/"
   favicon: favicon.ico
   navbar:
     # Use a dark navbar to complement the dark theme.
