@@ -8,8 +8,8 @@
 
 :root {
   --bs-body-font-family: 'Inter', sans-serif;
-  /* Slightly lighter purple background */
-  --bs-body-bg: #261e49;
+  /* Slightly lighter purple background (a touch lighter than before) */
+  --bs-body-bg: #2b2354;
   --bs-body-color: #e6e6e6;
   --bs-primary: #8e44ad;
   --bs-link-color: #bb86fc;
@@ -32,9 +32,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Navbar: use a dark teal/green shade */
+/* Navbar: use a slightly lighter green shade to avoid a grey appearance */
 .navbar-dark {
-  background-color: #184a3f !important;
+  /* Adjusted to a greener, slightly brighter hue to avoid grey appearance */
+  background-color: #1e644f !important;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
@@ -50,7 +51,7 @@ a:hover {
 
 /* Footer: match the navbar colour and improve legibility */
 .page-footer {
-  background-color: #184a3f;
+  background-color: #1e644f;
   color: #b0b0b0;
   padding-top: 1rem;
   padding-bottom: 1rem;
