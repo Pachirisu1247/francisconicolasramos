@@ -3,8 +3,14 @@ title: "Home"
 ---
 
 # About Me
+
+<div>
+
 ![Francisco N. Ramos](Francisco%20DTX.png){.profile-img-right}
-Hello there! I'm **Francisco (Frankie) Nicolás Ramos**, a clinical psychology researcher and the lab manager of the **Depression Treatment Laboratory** at the **University of Southern California**. I currently oversee the CBI clinical trial, a National Institutes of Mental Health‑funded randomized clinical trial testing metaverse‑based, peer‑supported mental health interventions, which you can read more about [here](https://clinicaltrials.gov/study/NCT06418997). My work spans data management and analysis, recruitment and mentorship of research assistants, and collaboration with partners at Vanderbilt University, Innerworld Inc., and other institutions.
+
+Hello there! I'm **Francisco (Frankie) Nicolás Ramos**, a clinical psychology researcher and the lab manager of the **Depression Treatment Laboratory** at the **University of Southern California**. I currently oversee the CBI clinical trial, a National Institutes of Mental Health–funded randomized clinical trial testing metaverse‑based, peer‑supported mental health interventions, which you can read more about [here](https://clinicaltrials.gov/study/NCT06418997). My work spans data management and analysis, recruitment and mentorship of research assistants, and collaboration with partners at Vanderbilt University, Innerworld Inc., and other institutions.
+
+</div>
 
 Outside the lab, I contribute to the [Measurement and Multilevel Modeling Lab](https://mmmlab.rbind.io/) at USC on science communication projects for psychologists and systematic reviews of measurement instruments. I also collaborate internationally with research groups in Spain on studies addressing mental health disorders and have presented my work at numerous conferences. I earned my B.A. in **Psychology and Economics** (Magna Cum Laude) from USC and am passionate about advancing mental health research and communicating science effectively. This site is a space to share more about my work, host my CV, and publish tutorials and posts on science communication.
 
