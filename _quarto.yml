@@ -38,7 +38,7 @@ format:
       dark: darkly
     css: styles.css
     toc: false
-    include-after-body: fix-accessibility.js
+   # include-after-body: fix-accessibility.js
     meta:
       - name: description
         content: "Francisco N. Ramos – Lab Manager & Clinical Psychology Researcher at USC"
