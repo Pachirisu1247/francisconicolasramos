@@ -1,5 +1,6 @@
 project:
   type: website
+
 lang: en
 
 website:
@@ -31,44 +32,39 @@ website:
 
   search: true
 
-  # ✅ SEO + Schema.org metadata
-  metadata:
-    - name: description
-      content: "Francisco N. Ramos – Lab Manager & Clinical Psychology Researcher at USC"
-    - name: author
-      content: "Francisco N. Ramos"
-    - name: robots
-      content: index, follow
-    - name: viewport
-      content: width=device-width, initial-scale=1
-    - script:
-        type: application/ld+json
-        content: |
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Francisco Nicolás Ramos",
-            "alternateName": "Frankie Ramos",
-            "url": "https://francisconramos.com",
-            "image": "https://francisconramos.com/Francisco%20DTX.png",
-            "jobTitle": "Lab Manager & Clinical Psychology Researcher",
-            "affiliation": {
-              "@type": "Organization",
-              "name": "University of Southern California",
-              "url": "https://usc.edu"
-            },
-            "sameAs": [
-              "https://github.com/Pachirisu1247",
-              "https://mmmlab.rbind.io/"
-            ]
-          }
-
 format:
   html:
     theme:
       dark: darkly
     css: styles.css
     toc: false
-    includes:
-      after-body: custom.js
-
+    meta:
+      - name: description
+        content: "Francisco N. Ramos – Lab Manager & Clinical Psychology Researcher at USC"
+      - name: author
+        content: "Francisco N. Ramos"
+      - name: robots
+        content: index, follow
+      - name: viewport
+        content: width=device-width, initial-scale=1
+      - script:
+          type: application/ld+json
+          content: |
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Francisco Nicolás Ramos",
+              "alternateName": "Frankie Ramos",
+              "url": "https://francisconramos.com",
+              "image": "https://francisconramos.com/Francisco%20DTX.png",
+              "jobTitle": "Lab Manager & Clinical Psychology Researcher",
+              "affiliation": {
+                "@type": "Organization",
+                "name": "University of Southern California",
+                "url": "https://usc.edu"
+              },
+              "sameAs": [
+                "https://github.com/Pachirisu1247",
+                "https://mmmlab.rbind.io/"
+              ]
+            }
