@@ -1,6 +1,8 @@
 ---
 title: "Home"
+title-block-style: none
 ---
+
 
 # About Me
 
