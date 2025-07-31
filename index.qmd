@@ -6,7 +6,7 @@ title: "Home"
 
 <div>
 
-![Francisco N. Ramos](Francisco%20DTX.png){.profile-img-right}
+![Francisco N. Ramos, Lab Manager and Clinical Psychology Researcher](Francisco%20DTX.png){.profile-img-right}
 
 Hello there! I'm **Francisco (Frankie) Nicolás Ramos**, a clinical psychology researcher and the lab manager of the **Depression Treatment Laboratory** at the **University of Southern California**. I currently oversee the CBI clinical trial, a National Institutes of Mental Health–funded randomized clinical trial testing metaverse‑based, peer‑supported mental health interventions, which you can read more about [here](https://clinicaltrials.gov/study/NCT06418997). My work spans data management and analysis, recruitment and mentorship of research assistants, and collaboration with partners at Vanderbilt University, Innerworld Inc., and other institutions.
 
